@@ -1,3 +1,4 @@
+/* whole document */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -58,6 +59,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* .sr-only hides the alt text for sighted users, only enabling it for screen readers */
 .sr-only {
     position: absolute;
     width: 1px;
